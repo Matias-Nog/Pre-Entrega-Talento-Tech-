@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background-color: #f3e496;
+    box-shadow: 0 5px 15px rgba(204, 203, 128, 0.979);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #bb4444;
+}
+
+.banner {
+    background-image: url('Imgs/Banner-img.png');
+    background-color: #faf6e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:center;
+    padding: 0px 80px;
+    flex-direction: column;
+}
+
+.banner-texto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ee8a39f1;
+    z-index: 1;
+}
+
+.banner-button button {
+    background-color: #e64444;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.productos-servicios {
+    background-color: #f3e496c0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productos-servicios img {
+    width: 40vh;
+    height: 40vh;
+}
+
+.productos-servicios button {
+    background-color: #e64444;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contenedor-prod {
+    border-radius: 20px;
+    background-color: azure;
+    margin: 15px 5px;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+}
+
+.contenedor-prod span {
+    font-size: 1.15rem;
+}
+
+.vet-contacto {
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    background-color:#f3e496c0;
+}
+
+.vet-text {
+    display: flex;
+    background-color:#faf6e3;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px #e4ca74
+}
+
+.vet-text button {
+    background-color: #e64444;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer-contenedor {
+    background-color:#faf6e3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 30px;
+}
+
+.footer-contenedor h6 {
+    font-size: 1.2rem;
+}
+.footer-texto2 {
+    display: flex;
+    flex-direction: column;
+}
